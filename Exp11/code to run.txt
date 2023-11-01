@@ -1,0 +1,5 @@
+docker build .
+
+docker build -t surya/regis:latest .
+
+docker run surya/regis
