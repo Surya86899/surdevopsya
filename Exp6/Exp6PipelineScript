@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Surya86899/JavaJenkinsPrac.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Compile the Java code using Windows batch command
+                bat 'javac TwoFunctionsExample.java'
+            }
+        }
+
+        stage('Test and Run') {
+            steps {
+                // Run your Java program using Windows batch command
+                bat 'java TwoFunctionsExample'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline succeeded!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
