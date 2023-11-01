@@ -1,0 +1,23 @@
+**Pipeline
+
+From Drop down select
+Pipeline script from SCM
+
+Git
+Repositories
+Repository URL
+https://github.com/Surya86899/surdevopsya
+
+Branch Specifier (blank for 'any')
+*/main
+
+Additional Behaviours
+Check out to a sub-directory
+Local subdirectory for repo
+Exp8/Jenkinsfile
+
+Script Path
+Exp8/Jenkinsfile
+
+*Tick mark
+Lightweight checkout

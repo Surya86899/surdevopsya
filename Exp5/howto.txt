@@ -1,0 +1,16 @@
+**Source Code Management
+Repository URL
+https://github.com/Surya86899/surdevopsya
+
+Branch Specifier (blank for 'any')
+*/main
+
+Additional Behaviours
+Check out to a sub-directory
+Exp5
+
+**Build Steps
+Execute Windows batch command
+cd Exp5\Exp5
+javac HelloWorld.java
+java HelloWorld

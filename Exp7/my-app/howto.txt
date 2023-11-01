@@ -1,0 +1,35 @@
+**General
+
+GitHub project
+Project url
+https://github.com/Surya86899/surdevopsya/
+
+**Source Code Management
+Git
+Repositories
+Repository URL
+https://github.com/Surya86899/surdevopsya
+
+Add Repository
+Branches to build
+Branch Specifier (blank for 'any')
+*/main
+
+Additional Behaviours
+Check out to a sub-directory
+Exp7
+
+**Build Triggers
+Tick Mark
+Build whenever a SNAPSHOT dependency is built
+GitHub hook trigger for GITScm polling
+
+**Build
+Root POM
+Exp7\Exp7\my-app/pom.xml
+
+Goals and options
+clean package
+
+**Post Steps
+Run regardless of build result
